@@ -240,7 +240,7 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #991b00;
+  background-color: #ff8057;
 }
 
 .bg-color--subcolor {
@@ -454,7 +454,7 @@ button {
 }
 
 .clear-message {
-  background-color: #991b00;
+  background-color: #ff8057;
   padding: 30px 30px 60px;
   position: relative;
 }
