@@ -499,9 +499,13 @@ button {
 ********************/
 .text-center {
   text-align: center;
-  color: #fff
+  color: #000
 }
-
+.text-center-white{
+  text-align: center;
+  color: #fff
+    
+}
 .text-left {
   text-align: left;
 }
