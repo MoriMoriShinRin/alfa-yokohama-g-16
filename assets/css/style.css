@@ -295,11 +295,11 @@ button {
 }
 
 .section-title--keycolorlight {
-  background-color: #ff8057;
+  background-color: #650000;
 }
 
 .section-title--keycolorlight .section-title__stage {
-  color: #000;
+  color: #fff;
 }
 
 .section-title--keycolor {
