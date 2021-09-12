@@ -460,6 +460,7 @@ button {
 .link-hint {
   text-align: center;
   display: block;
+  background: #fff;
   margin-top: 20px;
 }
 
