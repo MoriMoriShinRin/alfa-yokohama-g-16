@@ -522,7 +522,10 @@ button {
 .text-right {
   text-align: right;
 }
+.delay{
+transition-delay: 3s;
 
+}
 .hidden {
   display: none;
 }
