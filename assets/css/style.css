@@ -523,7 +523,7 @@ button {
   text-align: right;
 }
 .delay{
-transition-delay: 3s;
+transition-delay: 3000s;
 
 }
 .hidden {
