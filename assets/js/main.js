@@ -99,7 +99,7 @@ app.component('answer-input', {
   data: function () {
     return {
       /* 送信ボタン上下に表示されるメッセージ */
-      okMessage: 'もしかして.....ジャンプしてみて！！',
+      okMessage: '正解',
       ngMessage: 'そのキーワードは違うようだぞ！？',
       message: '',
       inputAnswer: '',
@@ -118,9 +118,6 @@ app.component('answer-input', {
     judgement(answer) {
       if(answer === this.correct) { // 入力値が解答と一致する場合
         
-        //遅延させたいいいいい
-
-       // timeoutID = window.setTimeout(message, 3000 )
         this.message = this.okMessage;
         this.$emit('answerInput', true);
       } else { // 一致しない場合
