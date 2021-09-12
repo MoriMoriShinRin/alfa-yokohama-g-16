@@ -120,7 +120,7 @@ app.component('answer-input', {
         
         //遅延させたいいいいい
 
-        timeoutID = window.setTimeout(message, 3000 )
+       // timeoutID = window.setTimeout(message, 3000 )
         this.message = this.okMessage;
         this.$emit('answerInput', true);
       } else { // 一致しない場合
