@@ -246,7 +246,9 @@ button {
 .bg-color--subcolor {
   background-color: #991b00;
 }
-
+.bg-color--650000{
+  background--color: #650000;
+}
 .bg-color--gray {
   background-color: #e6e6e6;
 }
