@@ -542,10 +542,7 @@ button:hover {
 .text-right {
   text-align: right;
 }
-.delay{
-transition-delay: 3000s;
 
-}
 .hidden {
   display: none;
 }
