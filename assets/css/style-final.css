@@ -138,6 +138,8 @@ button:hover {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+  background-color:#e6e6e6;
+
   transition: all 1s 0s ease;/*transitionの記述を追加*/
 
 }
