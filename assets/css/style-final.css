@@ -27,7 +27,6 @@ body {
   list-style: none;
   color: #000;
   margin: 0;
- // transition: all 2s 0s ease;/*transitionの記述を追加*/
   
  
 }
@@ -192,7 +191,7 @@ button:hover {
   margin: 0;
   position: relative;
   color:#ffffff;
-  transition: all 1s;
+  transition: all 2s 0s ease;/*transitionの記述を追加*/
   
 
 }
