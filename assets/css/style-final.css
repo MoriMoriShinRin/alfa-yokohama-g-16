@@ -32,7 +32,18 @@ body {
  
 }
 
+.section-first{
+  background-color:#fff;
+  color:#fff;
+  width: 1420px;
+  height:1000px;
+  transition: all 2s 0s ease;/*transitionの記述を追加*/
 
+}
+.section-first{
+   width: 0px;
+  height: 0px;
+}
 
 img {
   width: 100%;
