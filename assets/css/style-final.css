@@ -551,6 +551,7 @@ button:hover {
 .text-center:hover {
   color:#fff;
   background:#24140e;
+  font-size:20px;
 }
 
 .text-center-white{
