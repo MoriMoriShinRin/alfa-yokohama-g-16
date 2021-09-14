@@ -563,7 +563,7 @@ button:hover {
 
 }
  */
-
+/* 
 @keyframes goUp {
   100% {
     top: -5000px;
@@ -583,6 +583,6 @@ position: relative;
   animation-iteration-count: infinite;
   animation-timing-function: ease;
 } 
-
+ */
 
 /*# sourceMappingURL=style.css.map */
