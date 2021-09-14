@@ -378,10 +378,13 @@ button:hover {
   max-width: 700px;
   margin: 10px auto;
   position: relative;
+  
+  transition: all 1.5s 0s ease;/*transitionの記述を追加*/
+
 }
 
 .btn:hover {
-  background-color: #ffffff;
+  background-color: #ff8057;
   color: #000;
   
 }
