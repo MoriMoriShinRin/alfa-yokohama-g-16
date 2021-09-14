@@ -566,7 +566,7 @@ button:hover {
 
 @keyframes goUp {
   100% {
-    top: -10000px;
+    top: -5000px;
   }
 }
 
