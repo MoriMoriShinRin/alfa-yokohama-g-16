@@ -276,7 +276,6 @@ button:hover {
 .bg-color--keycolor:hover {
     background-color: #ff8057;
     color:#000;
-    height: 250px;
 }
 
 .bg-color--subcolor {
