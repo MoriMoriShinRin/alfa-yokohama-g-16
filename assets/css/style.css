@@ -381,7 +381,9 @@ button:hover {
 }
 
 .btn:hover {
-  opacity: 0.7;
+  background-color: #ffffff;
+  color: #000;
+  
 }
 
 .btn__arrow {
