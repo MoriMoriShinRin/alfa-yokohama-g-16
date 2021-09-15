@@ -278,9 +278,9 @@ button:hover {
 * title
 **********************/
 .main-title {
-  margin: 0;
+    margin-top: 200px;
+    text-align: center;
 }
-
 .sub-title {
   text-align: center;
   font-size: 18px;
