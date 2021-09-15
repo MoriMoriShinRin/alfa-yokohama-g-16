@@ -288,7 +288,7 @@ bg-color-black{
   100% {
    
     color:#ff8057;
-/*     background-color:#696969; */
+    font-size:100px;
   }
 }
 .main-title {
@@ -298,7 +298,7 @@ bg-color-black{
   color:transparent;
   background-color:transparent;
   position: relative;
-    
+  font-size:40px;
   animation-name: main-title;
   animation-duration: 5s;
   animation-delay:5s;
