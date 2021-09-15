@@ -271,8 +271,9 @@ button:hover {
   background-color: #650000;
 }
 .bg-color--gray {
-  background-color: #e6e6e6;
+  background-color: #000000;
 }
+
 
 /*********************
 * title
@@ -432,6 +433,7 @@ button:hover {
 
 .footer {
   font-size: 16px;
+  height:300px;
 }
 
 .footer p:first-child {
