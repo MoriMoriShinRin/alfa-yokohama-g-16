@@ -287,8 +287,8 @@ bg-color-black{
 @keyframes main-title {
   100% {
    
-    color:#ffffff;
-    background-color:#696969;
+    color:#ff8057;
+/*     background-color:#696969; */
   }
 }
 .main-title {
