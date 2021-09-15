@@ -278,17 +278,31 @@ button:hover {
 /*********************
 * title
 **********************/
-.main-title {
-    margin-top: 250px;
-    text-align: center;
+
+@keyframes main-title {
+  100% {
+   
     color:#ffffff;
+    background-color:#696969;
+  }
 }
-.main-title-back{
-  margin-top:200px;
-  background-color:#650000;
-  height:250px;
+.main-title {
+
+  margin-top: 250px;
+  text-align: center;
+  color:transparent;
+  background-color:transparent;
+  position: relative;
     
-}
+  animation-name: main-title;
+  animation-duration: 5s;
+  animation-delay:5s;
+  animation-timing-function: ease;
+  animation-fill-mode:forwards
+
+} 
+
+
 .sub-title {
   text-align: center;
   font-size: 18px;
@@ -566,7 +580,7 @@ button:hover {
 
 @keyframes goUp {
   100% {
-    top: -1500px;
+    top: -3000px;
   }
 }
 .goUp {
