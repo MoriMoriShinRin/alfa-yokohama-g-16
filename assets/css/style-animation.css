@@ -279,9 +279,15 @@ button:hover {
 * title
 **********************/
 .main-title {
-    margin-top: 200px;
+    margin-top: 250px;
     text-align: center;
     color:#ffffff;
+}
+.main-title-back{
+  margin-top:200px;
+  background-color:#650000;
+  height:250px;
+    
 }
 .sub-title {
   text-align: center;
@@ -560,7 +566,7 @@ button:hover {
 
 @keyframes goUp {
   100% {
-    top: -5000px;
+    top: -1500px;
   }
 }
 .goUp {
