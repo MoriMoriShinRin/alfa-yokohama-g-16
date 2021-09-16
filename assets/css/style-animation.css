@@ -530,12 +530,30 @@ bg-color-black{
   text-align: center;
 }
 
+
+
+@keyframes link-hint{
+  100% {
+   
+  background: #fff;   
+  color:#991b00;
+  }
+}
 .link-hint {
+  margin-top: 50px;
   text-align: center;
   display: block;
-  background: #fff;
-  margin-top: 20px;
-}
+  color:transparent;
+  background-color:transparent;
+  position: relative;
+  font-size:40px;
+  animation-name: link-hint;
+  animation-duration: 5s;
+  animation-delay:5s;
+  animation-timing-function: ease;
+  animation-fill-mode:forwards
+
+} 
 
 .clear-message {
   background-color: #ff8057;
