@@ -391,7 +391,7 @@ bg-color-black{
 /*************************
 * Button
 *************************/
-.btn {
+/* .btn {
   display: block;
   text-decoration: none;
   cursor: pointer;
@@ -408,13 +408,32 @@ bg-color-black{
   
   transition: all 1.5s 0s ease;/*transitionの記述を追加*/
 
-}
+} */
 
-.btn:hover {
-  background-color: #ff8057;
-  color: #000;
-  
+
+@keyframes btn {
+  100% {
+   
+    background-color: #ff8057;
+    color: #000;
+  }
 }
+.btn{
+
+  margin-top: 380px;
+  text-align: center;
+  color:transparent;
+  background-color:transparent;
+  position: relative;
+  font-size:24px;
+  animation-name: btn;
+  animation-duration: 2s;
+  animation-delay:8s;
+  animation-timing-function: ease;
+  animation-fill-mode:forwards
+
+} 
+
 
 .btn__arrow {
   position: absolute;
