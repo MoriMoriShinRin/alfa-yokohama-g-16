@@ -11,12 +11,7 @@
 const app = Vue.createApp({
   
   
-//   色々やってみてる
-  timeoutID = window.setTimeout(final,10000);
 
-  final:{
-    window.location.href = 'final.html';
-}
   
   data() {
     /* 初期値を設定します */
