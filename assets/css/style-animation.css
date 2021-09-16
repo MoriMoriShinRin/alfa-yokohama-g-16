@@ -411,7 +411,7 @@ bg-color-black{
 } */
 
 
-@keyframes btn {
+/* @keyframes btn {
   100% {
    
     background-color: #ff8057;
@@ -442,7 +442,7 @@ bg-color-black{
   fill: #fff;
   width: 12px;
   height: 24px;
-}
+} */
 
 /****************
 * header
